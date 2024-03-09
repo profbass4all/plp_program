@@ -1,22 +1,22 @@
-# def large_power(base, exponent):
-#     result = pow(base, exponent)
+def large_power(base, exponent):
+    result = pow(base, exponent)
 
-#     if result > 5000:
-#         return True
-#     else: 
-#         return False
+    if result > 5000:
+        return True
+    else: 
+        return False
 
-# print(large_power(50,4))
+print(large_power(50,4))
 
-# def divisible_by_ten(num):
-#     result = num % 10
+def divisible_by_ten(num):
+    result = num % 10
 
-#     if result == 0:
-#         return True
-#     else:
-#         return False
+    if result == 0:
+        return True
+    else:
+        return False
 
-# print(divisible_by_ten(73))
+print(divisible_by_ten(73))
 
 price = int(input('Enter the price: '))
 discount_percent = int(input('Enter the discount for the product: '))
