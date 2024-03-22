@@ -4,4 +4,5 @@ b = [2,1]
 for c in a:
     if all(e in c for e in b):
         a.remove(c)
-print(a)
+r = {'boy': 'Abass', 'girl': 'labake'}
+print(r.keys())
